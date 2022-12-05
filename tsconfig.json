@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "alwaysStrict": true,
-    "baseUrl": "src",
-    "checkJs": true,
+    "baseUrl": "pages",
     "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "isolatedModules": true,
@@ -15,26 +11,16 @@
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "strictBindCallApply": true,
-    "strictFunctionTypes": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
     "target": "es2018",
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
+    "allowJs": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
